@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+
     <title>To do list</title>
 </head>
 <body>
+    <div class="all">
     <div id ="todo">
         <h1>Список моих дел:</h1>
         <h3>Добавить дело</h3>
-        <input type="text" placeholder="Что необходимо сделать???"> <button>Добавить</button>
-        <ul>
-            <li>xxx</li>
-            <button>Изменить</button><button>Удалить</button>
-            <li>zzz</li>
-            <button>Изменить</button><button>Удалить</button>
+        <input type="text" id="addSearch" placeholder="Что необходимо сделать???"> <button id = "addbtn">Добавить</button>
+        <ul id="tasks">
+            <li><label>123</label><button>Изменить</button><button>Удалить</button></li>
         </ul>
 
     </div>
@@ -29,7 +30,7 @@
             <li></li>
         </ul>
     </div>
-
+</div>
 <script src="script.js"></script>
 </body>
 </html>
